@@ -45,11 +45,9 @@ public class InitRegistry {
 
 
     //Other Components
-    public static final RegistryObject<Item> SABER_UPPER_PART = ITEMS.register("saber_upper_part", () -> new Item(new Item.Properties()
-            .group(SimpleSabers.TAB).maxStackSize(16)));
-    public static final RegistryObject<Item> SABER_LOWER_PART = ITEMS.register("saber_lower_part", () -> new Item(new Item.Properties()
-            .group(SimpleSabers.TAB).maxStackSize(16)));
-    public static final RegistryObject<Item> DURASTEEL_INGOT = ITEMS.register("durasteel_ingot", () -> new Item(new Item.Properties()
-            .group(SimpleSabers.TAB)));
+    public static final RegistryObject<Item> SABER_UPPER_PART = ITEMS.register("saber_upper_part", () -> new Item(new Item.Properties().group(SimpleSabers.TAB).maxStackSize(16)));
+    public static final RegistryObject<Item> SABER_LOWER_PART = ITEMS.register("saber_lower_part", () -> new Item(new Item.Properties().group(SimpleSabers.TAB).maxStackSize(16)));
+    public static final RegistryObject<Item> DURASTEEL_INGOT = ITEMS.register("durasteel_ingot", () -> new Item(new Item.Properties().group(SimpleSabers.TAB)));
+    public static final RegistryObject<Item> FOCUS_CRYSTAL = ITEMS.register("focus_crystal", () -> new Item(new Item.Properties().group(SimpleSabers.TAB).maxStackSize(8)));
 
 }
