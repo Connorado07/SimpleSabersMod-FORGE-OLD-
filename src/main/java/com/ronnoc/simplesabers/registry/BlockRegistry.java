@@ -17,17 +17,11 @@ public class BlockRegistry {
     // BLOCKS
     public static final RegistryObject<Block> METALSHIP_BLOCK = BLOCKS.register("metalship_block", MetalShip::new);
 
+
+
+
+
+
     // BLOCK ITEMS
     public static final RegistryObject<Item> METALSHIP_BLOCK_ITEM = ITEMS.register("metalship_block", () -> new BlockItemBase(METALSHIP_BLOCK.get()));
-
-
-
-
-
-
-
-
-
-
-
 }
