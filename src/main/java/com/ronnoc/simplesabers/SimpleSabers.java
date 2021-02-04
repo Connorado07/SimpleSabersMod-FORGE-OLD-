@@ -1,6 +1,7 @@
 package com.ronnoc.simplesabers;
 
-import com.ronnoc.simplesabers.registry.InitRegistry;
+import com.ronnoc.simplesabers.registry.BlockRegistry;
+import com.ronnoc.simplesabers.registry.MainRegistry;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -21,7 +22,9 @@ public class SimpleSabers {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.addListener(this::setup);
 
-        InitRegistry.ITEMS.register(bus);
+        MainRegistry.ITEMS.register(bus);
+        BlockRegistry.BLOCKS.register(bus);
+        BlockRegistry.ITEMS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -33,6 +36,6 @@ public class SimpleSabers {
     public static final ItemGroup TAB = new ItemGroup("simplesabers") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(InitRegistry.RED_LIGHTSABER.get());
+            return new ItemStack(MainRegistry.RED_LIGHTSABER.get());
         }};
 }

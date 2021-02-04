@@ -9,7 +9,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class InitRegistry {
+public class MainRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SimpleSabers.MOD_ID);
 
@@ -26,6 +26,8 @@ public class InitRegistry {
     public static final RegistryObject<Item> KYBER_CRYSTAL_YELLOW = ITEMS.register("kyber_crystal_yellow", () -> new Item(new Item.Properties()
             .group(SimpleSabers.TAB).isImmuneToFire().maxStackSize(1).rarity(Rarity.RARE)));
     public static final RegistryObject<Item> KYBER_CRYSTAL_WHITE = ITEMS.register("kyber_crystal_white", () -> new Item(new Item.Properties()
+            .group(SimpleSabers.TAB).isImmuneToFire().maxStackSize(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> KYBER_CRYSTAL_BLACK = ITEMS.register("kyber_crystal_black", () -> new Item(new Item.Properties()
             .group(SimpleSabers.TAB).isImmuneToFire().maxStackSize(1).rarity(Rarity.RARE)));
 
 
