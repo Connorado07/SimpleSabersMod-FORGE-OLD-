@@ -19,6 +19,13 @@
   "item.simplesabers.durasteel_ingot": "Durasteel Ingot",
   "item.simplesabers.saber_upper_part": "Top Saber Part",
   "item.simplesabers.saber_lower_part": "Bottom Saber Part",
-  "item.simplesabers.focus_crystal": "Focusing Crystal"
+  "item.simplesabers.focus_crystal": "Focusing Crystal",
+
+  "block.simplesabers.blue_crystal_ore_block": "Blue Kyber Crystal Ore",
+  "block.simplesabers.red_crystal_ore_block": "Red Kyber Crystal Ore",
+  "block.simplesabers.green_crystal_ore_block": "Green Kyber Crystal Ore",
+  "block.simplesabers.purple_crystal_ore_block": "Purple Kyber Crystal Ore",
+  "block.simplesabers.yellow_crystal_ore_block": "Yellow Kyber Crystal Ore",
+  "block.simplesabers.white_crystal_ore_block": "White Kyber Crystal Ore"
 
 }
