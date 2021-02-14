@@ -10,11 +10,7 @@ public class CrystalOre extends Block
     public CrystalOre() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(6.0F, 99.0F)
-                .harvestTool(ToolType.PICKAXE)
-                .harvestLevel(3)
-                .sound(SoundType.STONE)
-                .setLightLevel(value -> 15)
-                .setRequiresTool()
-        );
-    }
+                .harvestTool(ToolType.PICKAXE).harvestLevel(3).sound(SoundType.STONE)
+                .setLightLevel(value -> 15).setRequiresTool()
+                .doesNotBlockMovement());}
 }

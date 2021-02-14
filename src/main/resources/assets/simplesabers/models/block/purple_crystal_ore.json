@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "simplesabers:blocks/purple_crystal_ore"
+  }
+}

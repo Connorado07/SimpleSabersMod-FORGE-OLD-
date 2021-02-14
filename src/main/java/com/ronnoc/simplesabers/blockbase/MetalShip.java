@@ -9,10 +9,6 @@ public class MetalShip extends Block {
     public MetalShip() {
         super(Block.Properties.create(Material.IRON)
                 .hardnessAndResistance(5.0F, 10.0F)
-                .harvestTool(ToolType.PICKAXE)
-                .harvestLevel(1)
-                .sound(SoundType.METAL)
-                .setRequiresTool()
-        );
-    }
+                .harvestTool(ToolType.PICKAXE).harvestLevel(1)
+                .sound(SoundType.METAL).setRequiresTool());}
 }

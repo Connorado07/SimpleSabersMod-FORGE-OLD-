@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "simplesabers:blocks/yellow_crystal_ore"
+  }
+}
