@@ -39,14 +39,16 @@ public class SimpleSabers {
         CrystalRegistry.BLOCKS.register(bus);
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, CommonCrystalOreGen::addFeaturesToBiomes);
-        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, RareCrystalOreGen::addFeaturesToBiomes); }
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, RareCrystalOreGen::addFeaturesToBiomes);
+    }
     private void setup(final FMLCommonSetupEvent event) {
         RenderTypeLookup.setRenderLayer(CrystalRegistry.RED_CRYSTAL_ORE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(CrystalRegistry.BLUE_CRYSTAL_ORE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(CrystalRegistry.GREEN_CRYSTAL_ORE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(CrystalRegistry.PURPLE_CRYSTAL_ORE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(CrystalRegistry.WHITE_CRYSTAL_ORE.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(CrystalRegistry.YELLOW_CRYSTAL_ORE.get(), RenderType.getCutout()); }
+        RenderTypeLookup.setRenderLayer(CrystalRegistry.YELLOW_CRYSTAL_ORE.get(), RenderType.getCutout());
+    }
     public static final ItemGroup TAB = new ItemGroup("simplesabers") {
         @Override
         public ItemStack createIcon() {return new ItemStack(MainRegistry.RED_LIGHTSABER.get());}};}
