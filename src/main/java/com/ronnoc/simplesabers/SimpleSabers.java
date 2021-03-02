@@ -51,5 +51,9 @@ public class SimpleSabers {
     }
     public static final ItemGroup TAB = new ItemGroup("simplesabers") {
         @Override
-        public ItemStack createIcon() {return new ItemStack(MainRegistry.RED_LIGHTSABER.get());}};}
+        public ItemStack createIcon() {return new ItemStack(MainRegistry.RED_LIGHTSABER.get());}};
+
+    public static final ItemGroup DONATOR_TAB = new ItemGroup("simplesabers_donator") {
+        @Override
+        public ItemStack createIcon() {return new ItemStack(MainRegistry.RONNS_LIGHTSABER.get());}};}
 

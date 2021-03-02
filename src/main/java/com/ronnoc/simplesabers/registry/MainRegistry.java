@@ -24,6 +24,16 @@ public class MainRegistry {
     public static final RegistryObject<SwordItem> YELLOW_LIGHTSABER = ITEMS.register("yellow_lightsaber", () -> new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.TAB).setNoRepair().maxStackSize(1)));
     public static final RegistryObject<SwordItem> WHITE_LIGHTSABER = ITEMS.register("white_lightsaber", () -> new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.TAB).setNoRepair().maxStackSize(1)));
 
+    //Friend/Donator Sabers
+    public static final RegistryObject<SwordItem> RONNS_LIGHTSABER = ITEMS.register("ronns_lightsaber", () ->
+            new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
+    public static final RegistryObject<SwordItem> ALTONS_LIGHTSABER = ITEMS.register("altons_lightsaber", () ->
+            new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
+    public static final RegistryObject<SwordItem> TALANS_LIGHTSABER = ITEMS.register("talans_lightsaber", () ->
+            new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
+    public static final RegistryObject<SwordItem> LARGOS_LIGHTSABER = ITEMS.register("largos_lightsaber", () ->
+            new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
+
     //Other Components
     public static final RegistryObject<Item> SABER_UPPER_PART = ITEMS.register("saber_upper_part", () -> new Item(new Item.Properties().group(SimpleSabers.TAB).maxStackSize(16)));
     public static final RegistryObject<Item> SABER_LOWER_PART = ITEMS.register("saber_lower_part", () -> new Item(new Item.Properties().group(SimpleSabers.TAB).maxStackSize(16)));

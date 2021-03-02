@@ -1,5 +1,6 @@
 {
   "itemGroup.simplesabers": "Simple Sabers",
+  "itemGroup.simplesabers_donator": "Simple Sabers Donator",
 
   "item.simplesabers.kyber_crystal_red": "Red Kyber Crystal",
   "item.simplesabers.kyber_crystal_blue": "Blue Kyber Crystal",
@@ -14,6 +15,11 @@
   "item.simplesabers.purple_lightsaber": "Purple Lightsaber",
   "item.simplesabers.white_lightsaber": "White Lightsaber",
   "item.simplesabers.yellow_lightsaber": "Yellow Lightsaber",
+
+  "item.simplesabers.ronns_lightsaber": "Ronns (Creator) Lightsaber",
+  "item.simplesabers.altons_lightsaber": "Altons Lightsaber",
+  "item.simplesabers.talans_lightsaber": "Talans Lightsaber",
+  "item.simplesabers.largos_lightsaber": "Largos Lightsaber",
 
   "item.simplesabers.durasteel_ingot": "Durasteel Ingot",
   "item.simplesabers.saber_upper_part": "Top Saber Part",
