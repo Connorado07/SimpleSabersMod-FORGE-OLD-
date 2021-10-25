@@ -23,7 +23,7 @@ public class MainRegistry {
     public static final RegistryObject<SwordItem> PURPLE_LIGHTSABER = ITEMS.register("purple_lightsaber", () -> new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.TAB).setNoRepair().maxStackSize(1)));
     public static final RegistryObject<SwordItem> YELLOW_LIGHTSABER = ITEMS.register("yellow_lightsaber", () -> new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.TAB).setNoRepair().maxStackSize(1)));
     public static final RegistryObject<SwordItem> WHITE_LIGHTSABER = ITEMS.register("white_lightsaber", () -> new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.TAB).setNoRepair().maxStackSize(1)));
-
+    public static final RegistryObject<SwordItem> GitHub_Lightsaber = ITEMS.register("github_lightsaber", () -> new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.TAB).setNoRepair().maxStackSize(1)));
     //Friend/Donator Sabers
     public static final RegistryObject<SwordItem> RONNS_LIGHTSABER = ITEMS.register("ronns_lightsaber", () ->
             new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
@@ -32,6 +32,8 @@ public class MainRegistry {
     public static final RegistryObject<SwordItem> TALANS_LIGHTSABER = ITEMS.register("talans_lightsaber", () ->
             new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
     public static final RegistryObject<SwordItem> LARGOS_LIGHTSABER = ITEMS.register("largos_lightsaber", () ->
+            new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
+    public static final RegistryObject<SwordItem> TEST_LIGHTSABER = ITEMS.register("test_lightsaber", () ->
             new SwordItem(LightsaberMaterial.INSTANCE, 0, 0.0F, new Item.Properties().group(SimpleSabers.DONATOR_TAB).setNoRepair().maxStackSize(1)));
 
     //Other Components
